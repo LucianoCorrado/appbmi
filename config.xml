@@ -10,20 +10,23 @@
   <name>App BMI</name>
 
   <description>
-      App per il calcolo del BMI dai il peso in Kg.
-      L'altezza in metri, il sesso.
+     App per il calcolo del BMI dati il peso in Kg,
+     l'altezza in metri, il sesso, indica come il
+     BMI si posiziona nella tabella di riferimento.
   </description>
 
-  <author email="corrado.luciano@canossamilano.org">
-      Luciano Corrado
+  <author email="alessandro.visigalli@canossamilano.org">
+      Alessandro Visigalli
   </author>
-  
-  <platform name="android" />
-   <icon src="bmi.jpg" platform="android" qualifier="ldpi" ></icon>
-   <icon src="bmi.jpg" platform="android" qualifier="mdpi" ></icon>
-   <icon src="bmi.jpg" platform="android" qualifier="hdpi" ></icon>
    
-   <access origin="*"></access>
-   <plugin name=cordova-plugin-whitelist" source="npm" ></plugin>
-   <allow-navigation href="*://*getskeleton.com/*" ></allow-navigation>
+  <platform name="android" />
+  
+  <icon src="icona.png" platform="android" qualifier="ldpi" />
+  <icon src="icona.png" platform="android" qualifier="mdpi" />
+  <icon src="icona.png" platform="android" qualifier="hdpi" />
+  
+  <access origin="*" />
+   <plugin name="cordova-plugin-whitelist" source="npm" />
+    <!-- abilita links esterni -->
+  <allow-navigation href="*://*getskeleton.com/*" />
 </widget>
